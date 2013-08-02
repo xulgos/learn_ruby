@@ -7,7 +7,7 @@ def shout anything
 end
 
 def repeat anything, n=2
-  (0...n).map { "#{anything} " }.join('').rstrip
+  n.times.map { anything }.join(' ')
 end
 
 def start_of_word anything, into
